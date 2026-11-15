@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.head-middle {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 7rem;
+}
+
+.head-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.head-buttons img {
+    background-color: white;
+    color: black;
+}
+
+.head-left {
+    background-color: blue;
+    height: 100vh;
+}
+
+.head-right {
+    background-color: green;
+    height: 100vh;
+}
